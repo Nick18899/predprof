@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="<%= BASE_URL %>favicon.ico" rel="icon">
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/af4aae0ea2.js"></script>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  <style>
+      @media screen and (min-width: 1000px) and (max-width: 1200px) and (min-height: 2200px) and (max-height: 2600px)
+      {
+          div{
+              width:100%;
+          }
+      }
+      butAlpha {
+          position: relative;
+          margin-left: 30px;
+          margin-top: 10px;
+          text-align: center;
+          width: 100%;
+          display: inline-block;
+      }
+
+      inputAlpha {
+          margin-left: 30px;
+          position: relative;
+          display: inline-block;
+          text-align: center;
+          width: 130px;
+      }
+      graphicsAlpha {
+          position: relative;
+          margin-left: 20px;
+          text-align: center;
+          width: 100%;
+          width: 500px;
+          margin-bottom: 10px;
+      }
+      labelAplpha {
+          position: relative;
+          margin-left: 50px;
+          text-align: center;
+          width: 100%;
+      }
+  </style>
+</head>
+<body>
+<noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+</noscript>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+</body>
+</html>
